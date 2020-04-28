@@ -65,11 +65,9 @@ img{
     margin-right: .6rem;    
 }
 
-.header_btnMenu:active{
-    outline: 0px;
+.header_btnMenu:focus{
+    outline: none;
 }
-
-
 
 .nav_bar{
     background-color: black;
