@@ -65,8 +65,14 @@ img{
     margin-right: .6rem;    
 }
 
+.header_btnMenu:active{
+    outline: 0px;
+}
+
+
+
 .nav_bar{
-    background-color: rgba(0, 0, 0, .8);
+    background-color: black;
     transition: 1s ease;
     clear: both;
     margin: 0;
@@ -114,15 +120,11 @@ img{
 
 .landscapeImg1{
     background: url("../images/daniel-vogel-NUD6cWNdBv8-unsplash.jpg") no-repeat center center;
-    -webkit-background-size: 100%; 
-    -moz-background-size: 100%; 
-    -o-background-size: 100%; 
-    background-size: 100%; 
-    -webkit-background-size: cover; 
-    -moz-background-size: cover; 
-    -o-background-size: cover; 
-    background-size: cover;
-    height: 30vh;
+    -webkit-background-size: 300%; 
+    -moz-background-size: 300%; 
+    -o-background-size: 300%; 
+    background-size: 300%; 
+    height: 20vh;
 }
 
 .nav{
@@ -245,6 +247,10 @@ footer{
     }
     .landscapeImg1{
          background-attachment: fixed;
+         -webkit-background-size: cover; 
+         -moz-background-size: cover; 
+         -o-background-size: cover; 
+         background-size: cover; 
     }
     .landscapeImg2{
         background-attachment: fixed;
@@ -310,4 +316,6 @@ footer{
     }
 
 
+
 }
+ 
