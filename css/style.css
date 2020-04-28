@@ -65,7 +65,7 @@ img{
     margin-right: .6rem;    
 }
 
-.header_btnMenu:focus{
+.header_btnMenu:focus, .header_btnMenu:active{
     outline: none;
 }
 
