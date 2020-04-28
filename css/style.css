@@ -14,7 +14,7 @@ img{
 }
 
 .header{
-    background: url("../images/headerBG.png") no-repeat center center fixed;
+    background: url("../images/headerBG.png") no-repeat center center;
     -webkit-background-size: 100%; 
     -moz-background-size: 100%; 
     -o-background-size: 100%; 
@@ -25,7 +25,6 @@ img{
     background-size: cover;
     height: 100vh;
     width: 100%;
-    box-sizing: border-box;
 }
 
 .nav_top{
