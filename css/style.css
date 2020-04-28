@@ -40,6 +40,7 @@ img{
     width: 100%;
     background-color: transparent;
     margin: 0;
+    height: 6.5rem;
 
 }
 
@@ -51,6 +52,8 @@ img{
 #nav_logo{
     width: 7rem;
     float: left;
+    position: relative;
+    left: 10px;
     transition: 1s ease;
     margin: 0;
     
