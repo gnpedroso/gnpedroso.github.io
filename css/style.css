@@ -20,7 +20,7 @@ img{
 
 
 .header{
-    background: url("../images/headerBG.png") no-repeat center center fixed;
+    background: url("../images/headerBGiPhone.png") no-repeat center center fixed;
     -webkit-background-size: 100%; 
     -moz-background-size: 100%; 
     -o-background-size: 100%; 
@@ -237,6 +237,10 @@ footer{
 /* PARA TABLETS */
 
 @media (min-width: 768px){
+    .header{
+        background: url("../images/headerBG.png") no-repeat center center fixed;
+    }
+
     #header_card{
         margin-left: 2rem;
         margin-top: 8rem;
