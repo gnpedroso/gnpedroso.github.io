@@ -80,18 +80,10 @@ function Menu(config){
 
         if(posYScroll > 200 && !hasClassFx()){
             document.body.classList.add('fx');
-            if(x.matches){
-                document.getElementById('nav_logo').style.cssText = "width: 4rem;"
-            } else{
-                document.getElementById('nav_logo').style.cssText = "width: 7rem;"
-            }
-
         }
 
         if(posYScroll < 200 && hasClassFx()){
             document.body.classList.remove('fx');
-            document.getElementById('nav_logo').style.cssText = "width: 7rem;"
-
         }
 
     }
