@@ -82,7 +82,7 @@ function Menu(config){
 
     function setUpNav(){
         let posYScroll = getYScroll();
-        let x = window.matchMedia("screen and (max-width: 1024px)")
+        let x = window.matchMedia("screen and (max-width: 1023px)")
 
         if(posYScroll > 200 && !hasClassFx()){
             document.body.classList.add('fx');
