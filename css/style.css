@@ -25,7 +25,7 @@ img{
     -moz-background-size: 100%;
     -o-background-size: 100%;
     background-size: 100vmax;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .nav_top{
