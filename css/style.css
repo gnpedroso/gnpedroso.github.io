@@ -18,9 +18,8 @@ img{
     color: white;
 }
 
-
 .header{
-    background: url("../images/headerBGiPhone.png") no-repeat center center fixed;
+    background: url("../images/headerBG.png") no-repeat center center fixed;
     -webkit-background-size: 100%; 
     -moz-background-size: 100%; 
     -o-background-size: 100%; 
@@ -29,7 +28,7 @@ img{
     -moz-background-size: cover; 
     -o-background-size: cover; 
     background-size: cover;
-    height: 100vh;
+    max-height: 100%;
 }
 
 .nav_top{
@@ -238,9 +237,6 @@ footer{
 
 @media (min-width: 768px){
 
-    .header{
-        background: url("../images/headerBGiPad.png") no-repeat center center fixed;
-    }
 
 
     #header_card{
@@ -257,9 +253,6 @@ footer{
 
 @media (min-width: 1024px){
 
-    .header{
-        background: url("../images/headerBG.png") no-repeat center center fixed;
-    }
 
     .nav_top{
         display: flex;
