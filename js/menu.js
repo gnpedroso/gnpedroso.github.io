@@ -5,6 +5,7 @@ function Menu(config){
     
     this.maxWidth = config.widthEnabled || false;
     
+    
     var _opened = false;
     var _this = this;
     
@@ -29,11 +30,20 @@ function Menu(config){
     this.btn.addEventListener('click', openOrClose )
     
     function openOrClose(){
+        let $navBar = document.querySelector('.nav_top')
         if(!_opened){
             openMenu()
+            if(window.pageYOffset < 200){
+                document.body.classList.add('fx');
+            }
+
         } else {
             closeMenu()
+            if(window.pageYOffset < 200){
+                document.body.classList.remove('fx');
+            }
         }
+        
     }
     
     function openMenu(){
@@ -65,10 +75,6 @@ function Menu(config){
         
         _opened = false;
     }
-    
-}
-
-(function(){
 
     let $menu = document.querySelector('.nav_top')
 
@@ -76,14 +82,20 @@ function Menu(config){
 
     function setUpNav(){
         let posYScroll = getYScroll();
-
+        let x = window.matchMedia("screen and (max-width: 1024px)")
 
         if(posYScroll > 200 && !hasClassFx()){
             document.body.classList.add('fx');
+            if(!x.matches){
+                document.getElementById('nav_logo').style.cssText = "width: 4rem;"
+            }
+
         }
 
-        if(posYScroll < 200 && hasClassFx()){
+        if(posYScroll < 200 && hasClassFx() && !_opened){
             document.body.classList.remove('fx');
+            document.getElementById('nav_logo').style.cssText = "width: 6rem;"
+
         }
 
     }
@@ -95,7 +107,5 @@ function Menu(config){
     function hasClassFx(){
         return !!document.querySelector('.fx')
     }
-
-
-})()
-
+    
+}
