@@ -112,7 +112,7 @@ img{
 }
 
 .landscapeImg1{
-    background: url("../images/daniel-vogel-NUD6cWNdBv8-unsplash.jpg") no-repeat center center fixed;
+    background: url("../images/daniel-vogel-NUD6cWNdBv8-unsplash.jpg") no-repeat center center;
     -webkit-background-size: 100%; 
     -moz-background-size: 100%; 
     -o-background-size: 100%; 
@@ -159,7 +159,7 @@ img{
 }
 
 .landscapeImg2{
-    background: url("../images/landscapeImg2.jpg") no-repeat center center fixed;
+    background: url("../images/landscapeImg2.jpg") no-repeat center center;
     -webkit-background-size: 100%; 
     -moz-background-size: 100%; 
     -o-background-size: 100%; 
@@ -239,8 +239,16 @@ footer{
 
 @media (min-width: 768px){
 
-
-
+    .header{
+        background-attachment: fixed;
+    }
+    .landscapeImg1{
+         background-attachment: fixed;
+    }
+    .landscapeImg2{
+        background-attachment: fixed;
+    }
+    
     #header_card{
         margin-left: 2rem;
         margin-top: 8rem;
