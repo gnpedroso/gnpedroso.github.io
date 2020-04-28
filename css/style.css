@@ -35,21 +35,23 @@ img{
     background-color: transparent;
     margin: 0;
     height: 6.5rem;
+    transition: 1.3s ease;
 
 }
 
 .fx .nav_top{
     background-color: black;
-    transition: 1s ease;
+    transition: 1.3s ease;
 }
 
 #nav_logo{
-    width: 7rem;
+    width: 6rem;
     float: left;
     position: relative;
     left: 10px;
     transition: 1s ease;
     margin: 0;
+    overflow: hidden;
     
 }
 
@@ -68,10 +70,7 @@ img{
     transition: 1s ease;
     clear: both;
     margin: 0;
-
-}
-.nav_bar li{
-    border-bottom: 1px solid rgba(255, 255, 255, .6);
+    font-size: 1.2rem;
 
 }
 
@@ -79,9 +78,11 @@ img{
     text-decoration: none;
     color: white;
     display: block;
-    padding: 1rem;
+    padding: 2rem;
     margin-left: 1rem;
     margin-top: 0;
+    position: relative;
+    top: 0;
 }
 
 .text-top{
@@ -310,12 +311,4 @@ footer{
 
 
 }
-
-@media (min-width: 1440px){
-
-    .text_top{
-        left: 20%;
-    }
-
-
-}
+ 
