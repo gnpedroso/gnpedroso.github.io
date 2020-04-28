@@ -76,12 +76,14 @@ function Menu(config){
 
     function setUpNav(){
         let posYScroll = getYScroll();
-        let x = window.matchMedia("screen and (max-width: 1024px)")
+        let x = window.matchMedia("screen and (max-width: 768px)")
 
         if(posYScroll > 200 && !hasClassFx()){
             document.body.classList.add('fx');
-            if(!x.matches){
+            if(x.matches){
                 document.getElementById('nav_logo').style.cssText = "width: 4rem;"
+            } else{
+                document.getElementById('nav_logo').style.cssText = "width: 7rem;"
             }
 
         }
