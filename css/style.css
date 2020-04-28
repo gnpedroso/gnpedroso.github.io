@@ -237,9 +237,11 @@ footer{
 /* PARA TABLETS */
 
 @media (min-width: 768px){
+
     .header{
-        background: url("../images/headerBG.png") no-repeat center center fixed;
+        background: url("../images/headerBGiPad.png") no-repeat center center fixed;
     }
+
 
     #header_card{
         margin-left: 2rem;
@@ -254,6 +256,10 @@ footer{
 /* PARA NOTEBOOKS */
 
 @media (min-width: 1024px){
+
+    .header{
+        background: url("../images/headerBG.png") no-repeat center center fixed;
+    }
 
     .nav_top{
         display: flex;
