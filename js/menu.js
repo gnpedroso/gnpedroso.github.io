@@ -76,13 +76,29 @@ function Menu(config){
         _opened = false;
     }
 
+    const x = window.matchMedia("screen and (max-width: 1023px)")
+
+    _this.nav.addEventListener('click', function(){
+        var _style = {
+            maxHeight: '0px',
+            overflow: 'hidden'
+        }
+        
+        
+        if(x.matches){
+            applyStyleToNav(_style)
+            
+            _opened = false;
+        }
+        
+    });
+    
     let $menu = document.querySelector('.nav_top')
 
     window.addEventListener('scroll', setUpNav)
 
     function setUpNav(){
         let posYScroll = getYScroll();
-        let x = window.matchMedia("screen and (max-width: 1023px)")
 
         if(posYScroll > 200 && !hasClassFx()){
             document.body.classList.add('fx');
@@ -109,3 +125,6 @@ function Menu(config){
     }
     
 }
+
+
+
