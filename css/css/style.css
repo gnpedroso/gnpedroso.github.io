@@ -1,0 +1,350 @@
+html{
+    scroll-behavior: smooth;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+.botao{
+    background-color: rgb(148, 14, 43);
+    color: white;
+}
+
+.botao:hover{
+    background-color: black;
+    color: white;
+}
+
+.header{
+    background: url("../images/headerBG.png") no-repeat center center;
+    -webkit-background-size: 100%; 
+    -moz-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.nav_top{
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    background-color: transparent;
+    margin: 0;
+    height: 6.5rem;
+    transition: 1.3s ease;
+
+}
+
+.fx .nav_top{
+    background-color: black;
+    transition: 1.3s ease;
+}
+
+#nav_logo{
+    width: 6rem;
+    float: left;
+    position: relative;
+    left: 10px;
+    transition: 1s ease;
+    margin: 0;
+    overflow: hidden;
+    
+}
+
+.header_btnMenu{
+    background-color: transparent;
+    border: none;
+    color: white;
+    float: right;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-right: .6rem; 
+}
+
+.header_btnMenu:focus, .header_btnMenu:active{
+    outline: none;
+}
+
+
+
+.header_btnMenu:active{
+    outline: 0px;
+}
+
+
+
+.nav_bar{
+    background-color: black;
+    transition: 1s ease;
+    clear: both;
+    margin: 0;
+    font-size: 1.2rem;
+
+}
+
+.nav_bar a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 2rem;
+    margin-left: 1rem;
+    margin-top: 0;
+    position: relative;
+    top: 0;
+}
+
+.text-top{
+    position: relative;
+    top: 15rem;
+}
+
+.content-top{
+    position: relative;
+    top: 12rem;
+}
+
+#header_card{
+    border: 1px solid white;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, .7);
+    border-radius: 1rem;
+    border-color: rgb(148, 144, 144);
+    display: none;
+}
+
+#header_card button{
+   border-color: rgb(148, 144, 144);
+}
+
+#header_card button:hover{
+    background-color: rgb(0, 0, 0);
+}
+
+.outlet{
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+}
+
+
+.landscapeImg1{
+    background: url("../images/daniel-vogel-NUD6cWNdBv8-unsplash.jpg") no-repeat center center;
+    -webkit-background-size: 300%; 
+    -moz-background-size: 300%; 
+    -o-background-size: 300%; 
+    background-size: 300%; 
+    height: 20vh;
+}
+
+.nav{
+    text-align: center;
+}
+
+.nav a{
+    text-decoration: none;
+    color: rgb(80, 77, 77);    
+}
+
+.nav-pills > li > a.active {
+    background-color: rgb(148, 14, 43)!important;
+}
+
+.nav-pills > li > a:hover {
+    background-color: rgb(148, 14, 43);
+    color: white;
+}
+
+.infoBtn{
+    text-decoration: none;
+    color: rgb(148, 14, 43);
+}
+
+.infoBtn:hover{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+.expCoworkinBg #ubereatsLogo{
+    width: 8rem;
+}
+
+.expCoworkinBg #glovoLogo{
+    width: 6rem;
+    position: relative;
+    bottom: 4px;
+    margin-left: 5px;
+}
+
+.expCoworkinBg{
+    background-color: rgb(248, 245, 245);
+    color: black;
+}
+
+.landscapeImg2{
+    background: url("../images/landscapeImg2.jpg") no-repeat center center;
+    -webkit-background-size: 100%; 
+    -moz-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover;
+    height: 30vh;
+    top: 3rem;
+}
+
+.price_in_table .value{
+    font-size:20px;
+    font-weight: 600;
+    vertical-align: top;
+    position: relative;
+    top: 17px;
+}
+
+.price_in_table .price{
+    font-size: 83px;
+    line-height: 1em;
+    padding: 0 3px;
+    font-weight: 200;
+    vertical-align: middle;
+}
+
+.price_in_table .tax{
+    vertical-align: bottom;
+    position: relative;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    top: 10px;
+}
+
+
+.contacto{
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+.contacto h3{
+    padding: 3rem;
+}
+
+.contacto .fab{
+    color: rgb(148, 14, 43);
+    font-size: 3rem;
+    margin-top: .5rem;
+    text-align: start;
+    padding: 1rem;
+    background-color: #ccc;
+    border-radius: 5%;
+}
+
+.contacto .fab:hover{
+    color: black;
+}
+
+#submitBtn .btn{
+    background-color: blue!important;
+
+}
+
+footer{
+    background-color: rgb(148, 14, 43);
+    width: 100%;
+    color: white;
+    padding: 10px;
+}
+
+
+
+/* PARA TABLETS */
+
+@media (min-width: 768px){
+
+    .header{
+        background-attachment: fixed;
+    }
+    .landscapeImg1{
+         background-attachment: fixed;
+         -webkit-background-size: cover; 
+         -moz-background-size: cover; 
+         -o-background-size: cover; 
+         background-size: cover; 
+    }
+    .landscapeImg2{
+        background-attachment: fixed;
+    }
+    
+    #header_card{
+        margin-left: 2rem;
+        margin-top: 8rem;
+        padding: 3rem;
+        display: block;
+    }
+
+
+}
+
+/* PARA NOTEBOOKS */
+
+@media (min-width: 1024px){
+
+
+    .nav_top{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .header_btnMenu{
+        display: none;
+    }
+
+    .nav_bar{
+        display: flex;
+        background-color: transparent;
+    }
+
+    .nav_bar li{
+        border: none;
+        font-size: 1.1rem;
+    }
+
+    .nav_bar li:hover{
+        font-size: 1.3rem;
+    }
+    
+    .text_top{
+        left: 5%;
+    }
+
+
+    .fx .nav_top{
+        height: 3rem;
+    }
+
+    #ubereatsLogo{
+        width: 15%; 
+        position: relative; 
+        bottom: 2px;
+    }
+    
+    #glovoLogo{
+        width: 11%; 
+        margin-bottom: 5px;
+    }
+
+
+
+}
+ 
