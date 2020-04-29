@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 img{
     height: 100%;
     width: 100%;
@@ -62,12 +66,20 @@ img{
     float: right;
     padding: 1rem;
     margin-top: 1rem;
-    margin-right: .6rem;    
+    margin-right: .6rem; 
 }
 
 .header_btnMenu:focus, .header_btnMenu:active{
     outline: none;
 }
+
+
+
+.header_btnMenu:active{
+    outline: 0px;
+}
+
+
 
 .nav_bar{
     background-color: black;
@@ -116,6 +128,12 @@ img{
     background-color: rgb(0, 0, 0);
 }
 
+.outlet{
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+}
+
+
 .landscapeImg1{
     background: url("../images/daniel-vogel-NUD6cWNdBv8-unsplash.jpg") no-repeat center center;
     -webkit-background-size: 300%; 
@@ -142,6 +160,19 @@ img{
     background-color: rgb(148, 14, 43);
     color: white;
 }
+
+.infoBtn{
+    text-decoration: none;
+    color: rgb(148, 14, 43);
+}
+
+.infoBtn:hover{
+    color: black;
+    text-decoration: none;
+}
+
+
+
 
 .expCoworkinBg #ubereatsLogo{
     width: 8rem;
@@ -200,8 +231,8 @@ img{
 
 
 .contacto{
-    margin-top: 6rem;
-    margin-bottom: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
 }
 
 .contacto h3{
