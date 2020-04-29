@@ -110,7 +110,10 @@ function Menu(config){
 
         if(posYScroll < 200 && hasClassFx() && !_opened){
             document.body.classList.remove('fx');
-            document.getElementById('nav_logo').style.cssText = "width: 6rem;"
+            if(!x.matches){
+                document.getElementById('nav_logo').style.cssText = "width: 9rem;"
+            }
+            
 
         }
 
