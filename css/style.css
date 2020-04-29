@@ -73,13 +73,9 @@ img{
     outline: none;
 }
 
-
-
 .header_btnMenu:active{
     outline: 0px;
 }
-
-
 
 .nav_bar{
     background-color: black;
@@ -87,7 +83,6 @@ img{
     clear: both;
     margin: 0;
     font-size: 1.2rem;
-
 }
 
 .nav_bar a{
@@ -164,6 +159,7 @@ img{
 .infoBtn{
     text-decoration: none;
     color: rgb(148, 14, 43);
+        font-size: 1.25rem;
 }
 
 .infoBtn:hover{
